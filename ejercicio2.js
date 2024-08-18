@@ -43,7 +43,7 @@ const preguntarCarrera = () => {
     rl.question("Por favor, ingresa la carrera del estudiante: ", (carrera) => {
 
           // Usamos una expresión regular para verificar que solo contenga letras y espacios
-          if (/^[a-zA-Z\s]+$/.test(carrera)) {
+        if (/^[a-zA-Z\s]+$/.test(carrera)) {
             datosEstudiante.carrera = carrera;
             preguntarEdad(); // Llamamos a la siguiente función
         } else {
