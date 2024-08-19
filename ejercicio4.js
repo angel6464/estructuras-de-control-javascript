@@ -1,3 +1,6 @@
+/**Crear una función que en base a 2 números enteros que ingrese el usuario,
+calcular cual número es el mayor y devolverlo.  */
+
 const readline = require('readline');
 
 const rl = readline.createInterface({
