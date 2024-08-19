@@ -6,4 +6,5 @@ Guia 1 de Ejercicios del modulo 2 Fundamentos de Javascript de Kodigo
 
 -Luego de instalar Node, debes de abrir una terminal y colocar el comando
 
-`node nombrearchivo.js`
+```bash
+node nombrearchivo.js
